@@ -1,9 +1,9 @@
 body {
     font-family: Roboto, Times, serif;
-    background-color: #1F2937;
     text-align: center;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 img {
@@ -36,6 +36,7 @@ ul {
 
 .header {
     font-size: 18px;
+    background-color: #1F2937;
     color: #E5E7EB;
     display: flex;
     justify-content: space-around;
@@ -43,11 +44,12 @@ ul {
 }
 
 .body1 {
+    background-color: #1F2937;
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
-    margin: 100px;
-    gap: 200px;
+    padding: 50px;
+    gap: 100px;
 }
 
 .main-small-text,
@@ -74,4 +76,35 @@ button {
     border: none;
     padding: 14px;
     display: block;
+}
+
+.information {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding-top: 20px;
+}
+
+.infoboxes {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 30px;
+}
+
+.infopics {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    padding: 4px;
+    background-color: blue;
+}
+
+.text {
+    width: 200px;
+    flex-wrap: wrap;
+    text-align: center;
+    text-wrap: wrap;
+    margin-bottom: 10px;
+    padding-top: 6px;
 }
