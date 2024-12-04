@@ -6,6 +6,11 @@ body {
     flex-direction: column;
 }
 
+img {
+    height: 400px;
+    width: 300px;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -15,7 +20,7 @@ ul {
     list-style-type: none;
     padding: 0;
     display: flex;
-    gap: 20px;
+    gap: 60px;
 }
 
 .logo {
@@ -35,4 +40,38 @@ ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.body1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin: 100px;
+    gap: 200px;
+}
+
+.main-small-text,
+.main-text {
+    width: 800px;
+    flex-wrap: wrap;
+    text-align: left;
+    color: #F9FAF8;
+    text-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.baseball-field {
+    height: 250px;
+    width: 400px;
+    object-fit: cover;
+    object-position: 0 44%;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 14px;
+    border: none;
+    padding: 14px;
+    display: block;
 }
