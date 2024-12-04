@@ -134,3 +134,40 @@ button {
     font-size: 24px;
     margin-right: 25%;
 }
+
+.body4 {
+    padding: 30px;
+    background-color: #3882F6;
+    margin: 50px 200px 50px 200px;
+    border-radius: 12px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.signup {
+    border: 2px solid white;
+    
+}
+
+.main-medium-text {
+    font-size: 24px;
+    flex-wrap: wrap;
+    text-align: left;
+    color: #F9FAF8;
+    text-wrap: wrap;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 30px;
+}
+
+.footer-text {
+    color: #F9FAF8;
+}
